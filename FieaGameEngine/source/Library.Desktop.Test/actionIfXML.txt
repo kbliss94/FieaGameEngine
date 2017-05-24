@@ -1,0 +1,16 @@
+<world name="KaitlynWorld">
+	<sector name="KTown">
+		<entity class="TestEntity" name="Kaitlyn">
+			<if condition="1">
+				<then class="ActionCreateAction" name="ThenTest"/>
+				<else class="ActionCreateAction" name="ElseTest"/>
+			</if>
+			<action class="ActionList" name="List">
+				<if condition="1">
+					<then class="ActionCreateAction" name="ThenTest"/>
+					<else class="ActionCreateAction" name="ElseTest"/>
+				</if>
+			</action>
+		</entity>
+	</sector>
+</world>

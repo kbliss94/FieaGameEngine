@@ -1,0 +1,7 @@
+<world name="KaitlynWorld">
+	<sector name="KTown">
+		<entity class="TestEntity" name="Kaitlyn">
+			<entry type="Integer" name="Health" value="10"/>
+		</entity>
+	</sector>
+</world>

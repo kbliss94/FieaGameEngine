@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="TestFoo.cpp" />
+    <ClCompile Include="HashmapTest.cpp">
+      <Filter>ContainerTests</Filter>
+    </ClCompile>
+    <ClCompile Include="SListTest.cpp">
+      <Filter>ContainerTests</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTest.cpp">
+      <Filter>ContainerTests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>DataTests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTest.cpp">
+      <Filter>DataTests</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTest.cpp">
+      <Filter>DataTests</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTest.cpp">
+      <Filter>DataTests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSharedData.cpp">
+      <Filter>XMLParsingTests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestXMLParseHelper.cpp">
+      <Filter>XMLParsingTests</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParserTest.cpp">
+      <Filter>XMLParsingTests</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLTableParserTest.cpp">
+      <Filter>XMLParsingTests</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTest.cpp" />
+    <ClCompile Include="EntityTest.cpp" />
+    <ClCompile Include="TestEntity.cpp" />
+    <ClCompile Include="ActionTest.cpp" />
+    <ClCompile Include="EventTest.cpp" />
+    <ClCompile Include="TestSubscriber.cpp" />
+    <ClCompile Include="ReactionTest.cpp" />
+    <ClCompile Include="AsyncTest.cpp" />
+    <ClCompile Include="AsyncTestSubscribers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="TestFoo.h" />
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>DataTests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSharedData.h">
+      <Filter>XMLParsingTests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestXMLParseHelper.h">
+      <Filter>XMLParsingTests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEntity.h" />
+    <ClInclude Include="TestSubscriber.h" />
+    <ClInclude Include="AsyncTestSubscribers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ContainerTests">
+      <UniqueIdentifier>{0d32efae-eae1-4531-b102-ca49ee23a826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataTests">
+      <UniqueIdentifier>{4a891829-adba-4e0a-8a63-145e9db5126e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLParsingTests">
+      <UniqueIdentifier>{2574c441-248c-4786-a123-749f14bc1d40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

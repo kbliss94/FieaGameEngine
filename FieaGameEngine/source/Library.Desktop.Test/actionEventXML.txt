@@ -1,0 +1,7 @@
+<world name="KaitlynWorld">
+	<sector name="KTown">
+		<entity class="TestEntity" name="Kaitlyn">
+			<action class="ActionEvent" name="Reaction" subtype="EventMessage" delay="0"/>
+		</entity>
+	</sector>
+</world>
