@@ -1,3 +1,0 @@
-<student>
-	<integer name="Age" value="22" />
-</student>
