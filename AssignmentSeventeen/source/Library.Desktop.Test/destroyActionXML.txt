@@ -1,0 +1,8 @@
+<world name="KaitlynWorld">
+	<sector name="KTown">
+		<entity class="TestEntity" name="Kaitlyn">
+			<action class="ActionList" name="List"/>
+			<action class="ActionDestroyAction" name="Destroy" destroyName="List"/>
+		</entity>
+	</sector>
+</world>
